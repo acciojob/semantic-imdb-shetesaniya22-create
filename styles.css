@@ -12,11 +12,12 @@ body{
 	background-color:beige;
 	
 }
-h1{
+header{
 	text-align:center;
 	padding:10px;
 	border:1px solid black;
 	background-color:pink;
+	font-weight:bold;
 }
 
 nav{
@@ -25,14 +26,18 @@ nav{
 	margin:10px;
 	display:block;
 }
-#nav-actor {
+#nav-actor{
 	display:flex;
 	flex-direction:column;
 	justify-content:space-between;
-	align-items:center;
+	
 }
 #nav-actor a{
 	text-decoration:none;
+}
+#nav-actor li{
+	list-style:none;
+	
 }
 summary{
 	padding:10px;
