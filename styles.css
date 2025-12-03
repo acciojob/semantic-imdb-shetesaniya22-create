@@ -39,6 +39,19 @@ nav{
 	list-style:none;
 	
 }
+#nav-quote{
+	display:flex;
+	flex-direction:column;
+	justify-content:space-between;
+	
+}
+#nav-quote a{
+	text-decoration:none;
+	
+}
+#nav-quote li{
+	list-style:none;
+}
 summary{
 	padding:10px;
 	margin:10px;
